@@ -12,7 +12,7 @@ title: Modernizing Your Vue Developer Skills
 
 # Modernizing Your Vue Developer Skills
 
-<img src="http://localhost:4000/modern-vue.png" class="pulse" style="display: block; 
+<img src="http://localhost:4000/modern-vue.png" class="effect-pulse" style="display: block; 
           padding-top: 30px;
           margin-left: auto;
           margin-right: auto;
@@ -34,35 +34,6 @@ Ortus has rightly said when it comes to Technology, Modernize or Die.
 * Modern
 -->
 
-<style>
-
-.pulse {
-  animation: heart-pulse 1s infinite;
-}
-@keyframes heart-pulse {
-  0% {
-    transform: scale(1);
-  }
-  10% {
-    transform: scale(1.02);
-  }
-  25% {
-    transform: scale(1);
-  }
-  35% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1.01);
-  }
-  55% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
 ---
 layout: two-cols
 hideInToc: true
@@ -73,29 +44,7 @@ hideInToc: true
 
 ::right::
 
-<img src="http://localhost:4000/modern-vue.png" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/modern-vue.png" class="effect-grow">
 
 ---
 title: Modernizing the Dev Experience
@@ -109,29 +58,7 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/vite-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/vite-logo.svg" class="effect-grow">
 
 ---
 title: Modernizing Vue Code
@@ -148,29 +75,7 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/vue-logo.png" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/vue-logo.png" class="effect-grow">
 
 <!--
 * [Nuxt](https://nuxtjs.org/) ![Nuxt Logo](/assets/img/nuxt-colored-logo.png)
@@ -190,30 +95,7 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/vitest-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
-
+<img src="http://localhost:4000/vitest-logo.svg" class="effect-grow">
 
 ---
 title: Modernizing State Management
@@ -224,29 +106,7 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/pinia-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 20%;">
-
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/pinia-logo.svg" class="effect-grow" style="width: 20%;">
 
 ---
 title: Modernizing E2E Testing
@@ -259,34 +119,9 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/cypress-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
+<img src="http://localhost:4000/cypress-logo.svg" class="effect-grow">
 <br>
-<img src="http://localhost:4000/playwright-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/playwright-logo.svg" class="effect-grow">
 
 ---
 title: Modernizing Documentation
@@ -297,28 +132,7 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/storybook-logo.svg" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;">
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/storybook-logo.svg" class="effect-grow" style="padding-top: 25%; width: 50%;">
 
 ---
 title: Modernizing Lunch (boxes) &amp; Learn
@@ -329,25 +143,4 @@ layout: two-cols
 
 ::right::
 
-<img src="http://localhost:4000/slidev-logo.png" class="pulse" style="display: block; 
-          padding-top: 25%;
-          margin-left: auto;
-          margin-right: auto;
-          width: 30%;">
-
-<style>
-p {
-  height: 300px;
-}
-.pulse {
-  animation: grow-out .45s ease-out;
-}
-@keyframes grow-out {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>
+<img src="http://localhost:4000/slidev-logo.png" class="effect-grow">

@@ -1,0 +1,43 @@
+.effect-grow {
+  display: block;
+  padding-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  animation: grow-out 0.45s ease-out;
+}
+@keyframes grow-out {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.effect-pulse {
+  animation: heart-pulse 1s infinite;
+}
+@keyframes heart-pulse {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.02);
+  }
+  25% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.01);
+  }
+  55% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
