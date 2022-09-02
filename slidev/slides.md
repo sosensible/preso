@@ -1,6 +1,7 @@
 ---
 theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
+xbackground: https://source.unsplash.com/collection/94734566/1920x1080
+background: http://localhost:4000/1920x1080.jfif
 class: text-center
 highlighter: shiki
 lineNumbers: false
@@ -15,13 +16,14 @@ css: unocss
 title: Modernizing Your Vue Developer Skills
 ---
 
-# Modernizing Your Vue Developer Skills
+# xModernizing Your Vue Developer Skills
 
-( ... Modern Vue Logo Here ... )
 
-![Modern Vue](modern-vue.png)
-
-<img src="https://sli.dev/logo-circle.png" />
+<img src="http://localhost:4000/modern-vue.png" style="display: block; 
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 30%;">
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -45,7 +47,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What Are Vue Developer Skills?
+# What are Vue developer skills?
 
 * Create
 * Test
@@ -125,7 +127,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: http://localhost:4000/1920x1080.jfif
 ---
 
 # Code
