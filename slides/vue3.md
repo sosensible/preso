@@ -8,6 +8,7 @@ layout: two-cols
 * Composition (or Options) API
 * TypeScript or Modern JS
 * Multiple Apps
+* Built in Components
 
 ::right::
 
@@ -18,14 +19,6 @@ layout: two-cols
 * <img src="/assets/img/quasar-logo.svg" scale="50%" />[Quasar](https://quasar.dev/)
 * [Veutify](https://vuetifyjs.com/en/)[logo]
 -->
-
----
-hideInToc: true
----
-
-# Composition or Options API
-
-<img src="itb-2022/api-prefs.png" class="main-img">
 
 ---
 hideInToc: true 
@@ -164,3 +157,163 @@ Demo
   padding-right: 6px;
 }
 </style>
+
+---
+hideInToc: true
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+---
+hideInToc: true 
+layout: two-cols
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+::right::
+
+# &lt;Transition&gt;
+&nbsp;
+
+This component can be used to apply enter and leave animations on elements or components passed to it via its default slot. The enter or leave can be triggered by one of the following:
+
+* Conditional rendering via v-if
+* Conditional display via v-show
+* Dynamic components toggling via the &lt;component&gt; special element
+
+_[Docs](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)_
+
+---
+hideInToc: true 
+layout: two-cols
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+::right::
+
+
+# &lt;TransitionGroup&gt;
+&nbsp;
+
+This is a built-in component designed for animating the insertion, removal, and order change of elements or components that are rendered in a list.
+
+```html
+<TransitionGroup name="list" tag="ul">
+  <li v-for="item in items" :key="item">
+    {{ item }}
+  </li>
+</TransitionGroup>
+```
+
+_[Docs](https://vuejs.org/guide/built-ins/transition-group.html#enter-leave-transitions)_
+
+---
+hideInToc: true 
+layout: two-cols
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+::right::
+
+
+# &lt;KeepAlive&gt;
+&nbsp;
+
+This is a built-in component that allows us to conditionally cache component instances when dynamically switching between multiple components.
+
+```html
+<!-- Inactive components will be cached! -->
+<KeepAlive>
+  <component :is="activeComponent" />
+</KeepAlive>
+```
+
+_[Docs](https://vuejs.org/guide/built-ins/keep-alive.html#basic-usage)_
+
+<!--
+When components are loaded, instantiated the state is set new each time. This allows the statefulness of the component to be static.
+-->
+
+---
+hideInToc: true 
+layout: two-cols
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+::right::
+
+
+# &lt;Teleport&gt;
+&nbsp;
+
+This is a built-in component that allows us to "teleport" a part of a component's template into a DOM node that exists outside the DOM hierarchy of that component.
+
+```html
+<button @click="open = true">Open Modal</button>
+
+<Teleport to="body">
+  <div v-if="open" class="modal">
+    <p>Hello from the modal!</p>
+    <button @click="open = false">Close</button>
+  </div>
+</Teleport>
+```
+
+_[Docs](https://vuejs.org/guide/built-ins/teleport.html#basic-usage) : Open Model Example_ 
+
+---
+hideInToc: true 
+layout: two-cols
+---
+
+# Built In Components
+
+* [Transition](https://vuejs.org/guide/built-ins/transition.html#the-transition-component)
+* [TransitionGroup](https://vuejs.org/guide/built-ins/transition-group.html#transitiongroup)
+* [KeepAlive](https://vuejs.org/guide/built-ins/keep-alive.html#keepalive)
+* [Teleport](https://vuejs.org/guide/built-ins/teleport.html#teleport)
+* [Suspense](https://vuejs.org/guide/built-ins/suspense.html#suspense)
+
+::right::
+
+
+# &lt;Suspense&gt;
+&nbsp;
+
+This is a built-in component for orchestrating async dependencies in a component tree. It can render a loading state while waiting for multiple nested async dependencies down the component tree to be resolved.
+
+Note: _**Experimental Feature**_
