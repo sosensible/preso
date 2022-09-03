@@ -5,6 +5,13 @@ h1 {
   color: ##1b9534;
 }
 
+img.main-img {
+  height: 50%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .effect-grow {
   display: block;
   padding-top: 25%;

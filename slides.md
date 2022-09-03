@@ -65,141 +65,32 @@ hideInToc: true
 
 
 ---
-hideInToc: true
----
-
-# Not Your Grandfather's
-
-<img src="/itb-2022/html.png" class="effect-grow">
-
-<style>
-img {
-  margin-top: -15%;
-}
-</style>
-
----
-hideInToc: true
----
-
-# Not Your Grandfather's
-
-<img src="/itb-2022/css.png" class="effect-grow">
-
-<style>
-img {
-  margin-top: -15%;
-}
-</style>
-
----
-hideInToc: true
----
-
-# Not Your Grandfather's
-
-<img src="/itb-2022/JavaScript.png" class="effect-grow">
-
-<style>
-img {
-  margin-top: -15%;
-}
-</style>
-
----
-hideInToc: true
----
-
-# Not Your Grandfather's
-
-<img src="http://localhost:4000/vue-logo.png" class="effect-grow">
-
-<style>
-img {
-  margin-top: -15%;
-}
-</style>
-
----
-title: Modernizing the Dev Experience
-layout: two-cols
----
-
-# Vite
-
-* Faster Startup
-* Instant Reload
-
-::right::
-
-<img src="http://localhost:4000/vite-logo.svg" class="effect-grow">
-
----
-title: Modernizing Vue Code
-layout: two-cols
----
-
-# Vue 3
-
-* <Link to="4">Composition (or Options) API</Link>
-* <Link to="5">TypeScript or Modern JS</Link>
-* <Link to="6">Pinia</Link>
-* <Link to="7">Vite</Link>
-* Multiple Apps
-
-::right::
-
-<img src="http://localhost:4000/vue-logo.png" class="effect-grow">
-
-<!--
-* [Nuxt](https://nuxtjs.org/) ![Nuxt Logo](/assets/img/nuxt-colored-logo.png)
-* <img src="/assets/img/quasar-logo.svg" scale="50%" />[Quasar](https://quasar.dev/)
-* [Veutify](https://vuetifyjs.com/en/)[logo]
--->
-
----
-title: Modernizing Unit Testing
-layout: two-cols
----
-
-# ViTest
-
-* Vite
-* Clean &amp; Simpler
-
-::right::
-
-<img src="http://localhost:4000/vitest-logo.svg" class="effect-grow">
-
----
-src: slides/pinia.md
+src: slides/grandfathers.md
 ---
 
 ---
-title: Modernizing E2E Testing
-layout: two-cols
----
-# E2E Testing
-
-* Cypress
-* PlayWright
-
-::right::
-
-<img src="http://localhost:4000/cypress-logo.svg" class="effect-grow">
-<br>
-<img src="http://localhost:4000/playwright-logo.svg" class="effect-grow">
-
----
-title: Modernizing Documentation
-layout: two-cols
+src: slides/dev-experience.md
 ---
 
-# Storybook
+---
+src: slides/vue3.md
+---
 
-::right::
+---
+src: slides/unit-testing.md
+---
 
-<img src="http://localhost:4000/storybook-logo.svg" class="effect-grow" style="padding-top: 25%; width: 50%;">
+---
+src: slides/state.md
+---
+
+---
+src: slides/e2e.md
+---
+
+---
+src: slides/documentation.md
+---
 
 ---
 title: Modernizing Lunch (boxes) &amp; Learn
