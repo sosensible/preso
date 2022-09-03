@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: http://localhost:4000/1920x1080.jfif
+background: http://localhost:4000/itb-2022/background.png
 class: text-center
 highlighter: shiki
 lineNumbers: true
@@ -33,6 +33,21 @@ Ortus has rightly said when it comes to Technology, Modernize or Die.
 
 * Modern
 -->
+
+---
+title: sponsors
+background: http://localhost:4000/itb-2022/sponsors.png
+hideInToc: true
+---
+
+<img src="http://localhost:4000/itb-2022/sponsors.png">
+
+<style>
+img {
+  width: 100%;
+  margin-top: 0;
+}
+</style>
 
 ---
 layout: two-cols
@@ -98,15 +113,8 @@ layout: two-cols
 <img src="http://localhost:4000/vitest-logo.svg" class="effect-grow">
 
 ---
-title: Modernizing State Management
-layout: two-cols
+src: slides/pinia.md
 ---
-
-# Pinia
-
-::right::
-
-<img src="http://localhost:4000/pinia-logo.svg" class="effect-grow" style="width: 20%;">
 
 ---
 title: Modernizing E2E Testing
