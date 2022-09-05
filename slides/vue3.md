@@ -99,7 +99,7 @@ layout: two-cols
 
 # Example Code
 
-```html {*|2,10|4-10} {maxHeight:'100'}
+```html {*|2,10|4-10|*} {maxHeight:'100'}
 <script setup lang="ts">
 import { ref } from 'vue'
 

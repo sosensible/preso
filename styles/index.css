@@ -12,6 +12,15 @@ img.main-img {
   margin-right: auto;
 }
 
+.drawing-grow {
+  display: block;
+  padding-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  animation: grow-out 0.45s ease-out;
+}
+
 .effect-grow {
   display: block;
   padding-top: 25%;
